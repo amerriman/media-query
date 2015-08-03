@@ -27,3 +27,15 @@ body {
   color: #ffffff;
   display: inline-block;
 }
+
+@media (max-width: 650px) {
+ /* .facet_sidebar {
+    display: none;
+  }*/
+  .nav li{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 100%;
+  }
+}
